@@ -427,6 +427,9 @@ importers:
 
   packages/rainbowkit:
     dependencies:
+      '@tanstack/react-query':
+        specifier: 5.x
+        version: 5.28.4(react@18.2.0)
       '@vanilla-extract/css':
         specifier: 1.14.0
         version: 1.14.0
